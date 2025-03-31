@@ -1,0 +1,4 @@
+node_modules/
+.vscode/
+src/css/main.css.map
+src/css/main.min.css.map

@@ -1,0 +1,30 @@
+.section-contact {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-contact {
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    height: 30vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    button {
+        width: 200px;
+    }
+}
+.link_group {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}

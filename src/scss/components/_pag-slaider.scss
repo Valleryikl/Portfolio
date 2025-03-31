@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .container-line {
+    display: flex;
+    width: 400%;
+    margin-left: 0;
+    transition: all 1s ease-in-out;
+  }
+  
