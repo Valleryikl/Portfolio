@@ -18,10 +18,10 @@
             <!-- <div class="menu-toggle">&#9776;</div> -->
             <a href="index.php" class="logo">ValleryG</a>
             <ul class="nav-list display-flex">
-                <li><a href="#home" class="nav-link active" data-index="0">Home</a></li>
-                <li><a href="#about" class="nav-link" data-index="1">About</a></li>
-                <li><a href="#portfolio" class="nav-link" data-index="2">Portfolio</a></li>
-                <li><a href="#contact" class="nav-link" data-index="3">Contact</a></li>
+                <li><a href="#home" class="nav-link active" data-index="0" id="Home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-index="1" id="About">About</a></li>
+                <li><a href="#portfolio" class="nav-link" data-index="2" id="Portfolio">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link" data-index="3" id="Contact">Contact</a></li>
             </ul>
         </nav>
     </header>
