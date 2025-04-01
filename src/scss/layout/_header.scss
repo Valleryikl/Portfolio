@@ -1,13 +1,20 @@
 .header {
     padding: 2% 15%;
     margin-bottom: 20px;
+    transition: all .3s ease-in-out;
 }
 .navbar {
     gap: 20vh;
     justify-content: space-between;
+    transition: all .3s ease-in-out;
+    img {
+        width: 30px;
+        height: 30px;
+    }
 }
 .nav-list {
     gap: 30px;
+    transition: all .3s ease-in-out;
 }
 .nav-link {
     position: relative;
@@ -57,5 +64,41 @@
     transition: all .2s ease-in-out;
     &:hover {
         transform: scale(1.03);
+    }
+}
+.menu {
+    display: none;
+}
+
+@media (max-width:850px) {
+    .header {
+        padding: 2% 7%;
+    }
+    .navbar {
+        gap: 20px;
+    }
+    .nav-list {
+        gap: 12px;
+    }
+}
+
+@media (max-width:550px) {
+    .navbar {
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .nav-list {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+        opacity: 0;
+    }
+    .nav-link {
+        font-size: 25px;
+        padding: 5px 10px;
+    }
+    .menu {
+        display: block;
+        z-index: 100;
     }
 }

@@ -9,14 +9,15 @@
     <script src="./src/dist/js/slaider.js" defer></script>
     <script src="./src/dist/js/hobby.js" defer></script>
     <script src="./src/dist/js/portfolio.js" defer></script>
+    <script src="./src/dist/js/menu.js" defer></script>
     <title>Vallery portfolio</title>
 </head>
 
 <body>
     <header class="header">
         <nav class="navbar display-flex container">
-            <!-- <div class="menu-toggle">&#9776;</div> -->
             <a href="index.php" class="logo">ValleryG</a>
+            <img class="menu" src="./src/assets/img/menu-burger.png" alt="">
             <ul class="nav-list display-flex">
                 <li><a href="#home" class="nav-link active" data-index="0" id="Home">Home</a></li>
                 <li><a href="#about" class="nav-link" data-index="1" id="About">About</a></li>
