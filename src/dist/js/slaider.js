@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
   var btnAbout = document.querySelector('#link-about');
   headerLinks.forEach(function (link) {
     link.addEventListener('click', function () {
-      slaiderLine.style.width = "100%";
       var index = parseInt(link.dataset.index);
       headerLinks.forEach(function (el) {
         el.classList.remove('active');
@@ -24,7 +23,8 @@ document.addEventListener('DOMContentLoaded', function () {
   if (btnAbout) {
     btnAbout.addEventListener('click', function () {
       // slaiderLine.style.marginLeft = "-100%";
-
+      slaiderLine.querySelector("#Home").style.display = "none";
+      slaiderLine.querySelector("#About").style.display = "flex";
       headerLinks.forEach(function (el) {
         return el.classList.remove('active');
       });
