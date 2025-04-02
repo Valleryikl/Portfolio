@@ -23,7 +23,8 @@ document.addEventListener('DOMContentLoaded', function () {
   if (btnAbout) {
     btnAbout.addEventListener('click', function () {
       // slaiderLine.style.marginLeft = "-100%";
-
+      slaiderLine.querySelector("#Home").style.display = "none";
+      slaiderLine.querySelector("#About").style.display = "flex";
       headerLinks.forEach(function (el) {
         return el.classList.remove('active');
       });

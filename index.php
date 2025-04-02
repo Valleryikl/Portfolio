@@ -55,6 +55,8 @@
                         <button class="tab" data-tab="tab2">LANGUAGES</button>
                         <button class="tab" data-tab="tab3">HARD SKILLS</button>
                         <button class="tab" data-tab="tab4">SOFT SKILLS</button>
+                        <button class="tab" data-tab="tab5">NEXT SKILLS</button>
+                        
                     </div>
 
                     <div class="tab-content active" id="tab1">
@@ -154,6 +156,17 @@
                                     works — I want it to feel intuitive, pleasant, and meaningful to others.</p>
                             </div>
                         </div>
+                    </div>
+                    <div class="tab-content" id="tab5">
+                        <h4 class="title-animation">In progres</h4>
+                        <ul>
+                            <li>PHP(Laravel, Symfony)</li>
+                            <li>Java(Spring, Angular)</li>
+                            <li>Python(Django)</li>
+                            <li>Go</li>
+                            <li>Ruby</li>
+                            <li>CMS(Wordpress)</li>
+                        </ul>
                     </div>
                 </div>
                 <h3 class="violet">Hobby</h3>
