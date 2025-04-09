@@ -90,7 +90,7 @@
                             <div class="tab-group">
                                 <h4 class="title-animation">Front-end Development</h4>
                                 <p><span class="text-actent">HTML, CSS,</span> and <span class="text-actent">JavaScript</span> are my core tools for building adaptive and interactive interfaces.
-                                    I also work with technologies like <span class="text-actent">Babel</span> and <span class="text-actent">SCSS</span> to write clean, modern, and maintainable code.
+                                    I also work with technologies like <span class="text-actent">Babel, React Native</span> and <span class="text-actent">SCSS</span> to write clean, modern, and maintainable code.
                                     I’m familiar with frameworks like <span class="text-actent">Bootstrap</span> and <span class="text-actent">Tailwind,</span> and I know how to use them, but they are not
                                     part of my main tech stack — I prefer writing custom styles for greater flexibility and control.</p>
                             </div>
