@@ -10,7 +10,7 @@
     <script src="./src/dist/js/hobby.js" defer></script>
     <script src="./src/dist/js/portfolio.js" defer></script>
     <script src="./src/dist/js/menu.js" defer></script>
-    <title>Vallery portfolio</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
@@ -198,6 +198,9 @@
                         </div>
                     </div>
                     <div class="slaider-btn" id="next"></div>
+                </div>
+                <div class="More">
+                    <h4 style="text-align: center; margin-bottom: 50px" class="violet">You want to know more about me? <br> <a class="link" href="/blog.php">Come here</a>.</h4>
                 </div>
             </section>
             <section class="section-portfolio" id="Portfolio">
