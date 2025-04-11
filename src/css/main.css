@@ -495,7 +495,7 @@ button:active {
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10%;
+  margin-bottom: 1%;
 }
 
 .slaider-btn {
@@ -712,4 +712,25 @@ button:active {
   gap: 20px;
   font-size: 20px;
   margin-top: 20px;
+}
+
+.card {
+  width: 150px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  cursor: grab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.card:active {
+  cursor: grabbing;
 }/*# sourceMappingURL=main.css.map */
