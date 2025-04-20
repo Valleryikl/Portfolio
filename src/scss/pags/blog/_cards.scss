@@ -1,0 +1,12 @@
+$container: (
+    "1" 50px 50px,
+    "2" 200px 100px,
+    "3" 550px 200px
+);
+
+@each $name, $top, $left in $container {
+    .card-#{$name} {
+        top: $top;
+        left: $left;
+    }
+}

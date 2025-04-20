@@ -3,6 +3,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   var transition = document.querySelector('.untransition');
   setTimeout(function () {
-    transition.style.top = "-100%";
-  }, 1500);
+    transition.style.top = "-100vh";
+  }, 100);
 });

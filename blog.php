@@ -12,12 +12,14 @@
 
 <body>
   <div class="untransition"></div>
-  <div class="card" style="top: 50px; left: 50px;">Карточка 1</div>
-  <div class="card" style="top: 200px; left: 100px;">Карточка 2</div>
-  <div class="card" style="top: 350px; left: 200px;">Карточка 3</div>
+  <nav>
+    <a class="logo" href="./index.php">ValleryG</a>
+  </nav>
+  <div class="card card-1">Карточка 1</div>
+  <div class="card card-2">Карточка 2</div>
+  <div class="card card-3">Карточка 3</div>
   <canvas id="lightCanvas"> </canvas>
   <canvas id="dotsCanvas"> </canvas>
-
 </body>
 
 </html>
