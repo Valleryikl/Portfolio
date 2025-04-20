@@ -10,10 +10,12 @@
     <script src="./src/dist/js/hobby.js" defer></script>
     <script src="./src/dist/js/portfolio.js" defer></script>
     <script src="./src/dist/js/menu.js" defer></script>
+    <script src="./src/dist/js/transition.js" defer></script>
     <title>Portfolio</title>
 </head>
 
 <body>
+    <div class="transition"></div>
     <header class="header">
         <nav class="navbar display-flex container">
             <a href="index.php" class="logo">ValleryG</a>
@@ -200,7 +202,7 @@
                     <div class="slaider-btn" id="next"></div>
                 </div>
                 <div class="More">
-                    <h4 style="text-align: center; margin-bottom: 50px" class="violet">You want to know more about me? <br> <a class="link" href="/blog.php">Come here</a>.</h4>
+                    <h4 style="text-align: center; margin-bottom: 50px" class="violet">You want to know more about me? <br> <span class="link" id="transitionLink">Come here</span>.</h4>
                 </div>
             </section>
             <section class="section-portfolio" id="Portfolio">
