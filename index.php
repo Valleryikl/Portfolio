@@ -1,3 +1,6 @@
+<?php 
+    require_once "./modul/portfolioItem.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -98,7 +101,7 @@
                             </div>
                             <div class="tab-group">
                                 <h4 class="title-animation">Back-end Fundamentals</h4>
-                                <p>I have a solid understanding of <span class="text-actent">PHP, SQL,</span> and the basics of <span class="text-actent">REST APIs.</span>
+                                <p>I have a solid understanding of <span class="text-actent">PHP(Laravel), SQL</span> and the basics of <span class="text-actent">REST APIs.</span>
                                     I’m capable of building application logic, handling data, and connecting the back-end with the front-end.</p>
                             </div>
                             <div class="tab-group">
@@ -162,7 +165,7 @@
                     <div class="tab-content" id="tab5">
                         <h4 class="title-animation">In progres</h4>
                         <ul>
-                            <li>PHP(Laravel, Symfony)</li>
+                            <li>PHP(Symfony)</li>
                             <li>Java(Spring, Angular)</li>
                             <li>Python(Django)</li>
                             <li>Go</li>
@@ -203,120 +206,68 @@
                 </div>
                 <div class="More">
                     <h4 style="text-align: center; margin-bottom: 50px" class="violet">You want to know more about me? <br> <span class="link" id="transitionLink">Come here</span>.</h4>
+                    <!-- Это пиздец лера, поменяй -->
                 </div>
             </section>
             <section class="section-portfolio" id="Portfolio">
                 <h3>My projects</h3>
                 <div class="portfolio">
-                    <div class="portfolio-group">
-                        <div class="portfolio-item quizz">
-                            <h3>Quizz</h3>
-                        </div>
-                        <div class="portfolio-info">
-                            <div class="portfolio-item__decribe">
-                                <h3>Quizz</h3>
-                                <img src="./src/assets/img/quizzT.png" alt="Foto of the Quizz">
-                                <a class="link" href="https://valleryikl.github.io/Quizz/" target="_blank" rel="noopener noreferrer">link: quizz</a>
-                                <div class="portfolio-text">
-                                    <h4>HTML/CSS, JavaScript, Json</h4>
-                                    <p>Quizz is a playful and dynamic web application that lets users test their tech knowledge.
+                        <?php
+                            portfolioItem("quizz", 
+                                        "Quizz", 
+                                        "./src/assets/img/quizzT.png", 
+                                        "https://valleryikl.github.io/Quizz/", 
+                                        "HTML/CSS, JavaScript, Json", 
+                                        "Quizz is a playful and dynamic web application that lets users test their tech knowledge.
                                         Built in just a few hours using HTML, CSS, JavaScript and a JSON dataset, it offers a responsive and engaging experience.
-                                        This project was my first time working with JSON under a tight deadline. It was a challenging task, but an incredibly valuable learning experience.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-group">
-                        <div class="portfolio-item neon">
-                            <h3>Neon Waves</h3>
-                        </div>
-                        <div class="portfolio-info">
-                            <div class="portfolio-item__decribe">
-                                <h3>Neon Waves</h3>
-                                <img src="./src/assets/img/neonT.png" alt="Foto of the Neon Waves">
-                                <a class="link" href="https://github.com/Valleryikl/neon_waves" target="_blank" rel="noopener noreferrer">link: Neon Waves</a>
-                                <div class="portfolio-text">
-                                    <h4>HTML/CSS, SCSS/SAAS, JavaScript</h4>
-                                    <p>Neon Waves is a multi-page website built to simulate a real festival landing page.
+                                        This project was my first time working with JSON under a tight deadline. It was a challenging task, but an incredibly valuable learning experience.");
+
+                            portfolioItem("neon", 
+                                        "Neon Waves",
+                                        "./src/assets/img/neonT.png",
+                                        "https://github.com/Valleryikl/neon_waves",
+                                        "HTML/CSS, SCSS/SAAS, JavaScript", 
+                                        "Neon Waves is a multi-page website built to simulate a real festival landing page.
                                         It was created as part of my application project to join Web@cadémie. This site includes animated UI elements,
-                                        a responsive layout, and a strong visual identity using HTML, CSS, SCSS and JavaScript.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-group">
-                        <div class="portfolio-item animeec">
-                            <h3>ANImeec.</h3>
-                        </div>
-                        <div class="portfolio-info">
-                            <div class="portfolio-item__decribe">
-                                <h3>ANImeec.</h3>
-                                <img src="./src/assets/img/animeecT.png" alt="Foto of the ANImeec.">
-                                <a class="link" href="https://github.com/Valleryikl/neon_waves" target="_blank" rel="noopener noreferrer">link: ANImeec.</a>
-                                <div class="portfolio-text">
-                                    <h4>HTML/CSS, PHP, SQL</h4>
-                                    <p>ANImeec. is a dating site for anime characters. Here, you can register and find your ideal hero based on
+                                        a responsive layout, and a strong visual identity using HTML, CSS, SCSS and JavaScript.");
+
+                            portfolioItem("animeec",
+                                        "ANImeec.",
+                                        "./src/assets/img/animeecT.png",
+                                        "https://github.com/Valleryikl/neon_waves",
+                                        "HTML/CSS, PHP, SQL",
+                                        "ANImeec. is a dating site for anime characters. Here, you can register and find your ideal hero based on
                                         your interests and preferences. The entire backend is built with PHP, and SQL is used for the database.
-                                        In this project, I built my own database and learned how to use it more effectively and accurately.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-group">
-                        <div class="portfolio-item ac">
-                            <h3>AC_ouctoupus</h3>
-                        </div>
-                        <div class="portfolio-info">
-                            <div class="portfolio-item__decribe">
-                                <h3>AC_ouctoupus</h3>
-                                <img src="./src/assets/img/acT.png" alt="Foto of the AC_ouctoupus">
-                                <a class="link" href="https://github.com/Valleryikl" target="_blank" rel="noopener noreferrer">link: AC_ouctoupus</a>
-                                <div class="portfolio-text">
-                                    <h4>HTML/CSS, Scss/Sass, JavaScript, PHP, SQL</h4>
-                                    <p>The goal of this project is to create a social network for the students in your class,
+                                        In this project, I built my own database and learned how to use it more effectively and accurately.");
+
+                            portfolioItem("ac",
+                                        "AC_ouctoupus",
+                                        "./src/assets/img/acT.png",
+                                        "https://github.com/Valleryikl",
+                                        "HTML/CSS, Scss/Sass, JavaScript, PHP, SQL",
+                                        "The goal of this project is to create a social network for the students in your class,
                                         with the same features as Twitter. It should resemble the “Twitter” website as closely as possible in terms of functionality.
                                         This was my first large-scale team project. It was challenging to adapt and collaborate with others at first, but it helped me 
-                                        develop a deeper understanding of JavaScript modules and the MVC architecture in PHP.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-group">
-                        <div class="portfolio-item cinema">
-                            <h3>WEBmovie</h3>
-                        </div>
-                        <div class="portfolio-info">
-                            <div class="portfolio-item__decribe">
-                                <h3>WEBmovie</h3>
-                                <img src="./src/assets/img/cinemaT.png" alt="Foto of the WEBmovie">
-                                <a class="link" href="https://github.com/Valleryikl" target="_blank" rel="noopener noreferrer">link: WEBmovie</a>
-                                <div class="portfolio-text">
-                                    <h4>HTML/CSS, JavaScript, PHP, SQL</h4>
-                                    <p>This is a prototype of a movie website where you can find films and their
+                                        develop a deeper understanding of JavaScript modules and the MVC architecture in PHP.");
+
+                            portfolioItem("cinema",
+                                        "WEBmovie",
+                                        "./src/assets/img/cinemaT.png",
+                                        "https://github.com/Valleryikl",
+                                        "HTML/CSS, JavaScript, PHP, SQL",
+                                        "This is a prototype of a movie website where you can find films and their
                                         screening dates. You can also log in as an admin to view other users of the site.
-                                        This was my first time using a database and SQL in a project, and I successfully managed to handle it.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-group">
-                        <div class="portfolio-item todo">
-                            <h3>MyUtils</h3>
-                        </div>
-                        <div class="portfolio-info">
-                            <div class="portfolio-item__decribe">
-                                <h3>MyUtils</h3>
-                                <img src="./src/assets/img/todoT.png" alt="Foto of the MyUtils">
-                                <a class="link" href="https://github.com/Valleryikl/MyUtils" target="_blank" rel="noopener noreferrer">link: MyUtils</a>
-                                <div class="portfolio-text">
-                                    <h4>HTML/CSS, JavaScript, PHP, SQL</h4>
-                                    <p>My_Todo is a small web application developed in 3 hours. It allows users to create, 
+                                        This was my first time using a database and SQL in a project, and I successfully managed to handle it.");
+
+                            portfolioItem("todo",
+                                        "MyUtils",
+                                        "./src/assets/img/todoT.png",
+                                        "https://github.com/Valleryikl/MyUtils",
+                                        "HTML/CSS, JavaScript, PHP, SQL",
+                                        "My_Todo is a small web application developed in 3 hours. It allows users to create, 
                                         delete, save, and reload tasks using a SQL database.
-                                        I had problems with this project because it didn’t load the saved data, but I managed to solve it.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                        I had problems with this project because it didn’t load the saved data, but I managed to solve it.")
+                        ?>
                 </div>
             </section>
             <section class="section-contact" id="Contact">
