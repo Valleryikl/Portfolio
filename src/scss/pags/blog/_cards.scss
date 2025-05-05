@@ -1,12 +1,15 @@
 $container: (
-    "1" 50px 50px,
-    "2" 200px 100px,
-    "3" 550px 200px
+    "1" 100px 10%,
+    "2" 250px 60%,
+    "3" 450px 15%,
+    "4" 750px 55%,
+    "5" 950px 10%
 );
 
-@each $name, $top, $left in $container {
+@each $name, $top, $left, $img in $container {
     .card-#{$name} {
         top: $top;
         left: $left;
+        background-color: #00000038;
     }
 }

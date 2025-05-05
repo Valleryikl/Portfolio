@@ -732,22 +732,20 @@ body {
 }
 
 .card {
-  width: 150px;
-  height: 100px;
-  background-color: white;
+  color: white;
+  width: 400px;
+  height: 300px;
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: absolute;
   cursor: grab;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
 }
-
 .card:active {
   cursor: grabbing;
 }
@@ -771,16 +769,31 @@ nav {
 }
 
 .card-1 {
-  top: 50px;
-  left: 50px;
+  top: 100px;
+  left: 10%;
+  background-color: rgba(0, 0, 0, 0.2196078431);
 }
 
 .card-2 {
-  top: 200px;
-  left: 100px;
+  top: 250px;
+  left: 60%;
+  background-color: rgba(0, 0, 0, 0.2196078431);
 }
 
 .card-3 {
-  top: 550px;
-  left: 200px;
+  top: 450px;
+  left: 15%;
+  background-color: rgba(0, 0, 0, 0.2196078431);
+}
+
+.card-4 {
+  top: 750px;
+  left: 55%;
+  background-color: rgba(0, 0, 0, 0.2196078431);
+}
+
+.card-5 {
+  top: 950px;
+  left: 10%;
+  background-color: rgba(0, 0, 0, 0.2196078431);
 }/*# sourceMappingURL=main.css.map */

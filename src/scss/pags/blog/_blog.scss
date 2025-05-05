@@ -2,21 +2,21 @@ body {
     position: relative;
 }
 .card {
-    width: 150px;
-    height: 100px;
-    background-color: white;
+    color: white;
+    width: 400px;
+    height: 300px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: absolute;
     cursor: grab;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     user-select: none;
-}
-.card:active {
-    cursor: grabbing;
+
+    &:active {
+        cursor: grabbing;
+    }
 }
 .untransition {
     position: absolute;
