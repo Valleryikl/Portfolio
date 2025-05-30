@@ -204,10 +204,6 @@
                     </div>
                     <div class="slaider-btn" id="next"></div>
                 </div>
-                <div class="More">
-                    <h4 style="text-align: center; margin-bottom: 50px" class="violet">You want to know more about me? <br> <span class="link" id="transitionLink">Come here</span>.</h4>
-                    <!-- Это пиздец лера, поменяй -->
-                </div>
             </section>
             <section class="section-portfolio" id="Portfolio">
                 <h3>My projects</h3>
