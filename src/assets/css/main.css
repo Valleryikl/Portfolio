@@ -284,8 +284,7 @@ button:active {
   color: #fff;
   background-color: rgba(27, 21, 34, 0.7);
   border-radius: 70px 0 70px 0;
-  -webkit-backdrop-filter: blur(1.5px);
-          backdrop-filter: blur(1.5px);
+  backdrop-filter: blur(1.5px);
   z-index: 69;
   border: 1px solid #fff;
   justify-content: center;
@@ -505,82 +504,31 @@ button:active {
 }
 
 .hobby {
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1%;
-}
-
-.slaider-btn {
-  transition: all 0.3s ease-in-out;
-  width: 7%;
-  height: 60%;
-  background-color: rgba(184, 126, 255, 0.4156862745);
-  filter: blur(100px);
-  cursor: pointer;
-}
-.slaider-btn:hover {
-  width: 10%;
-  height: 60%;
-}
-
-.hobby-slaider {
-  width: 100%;
-  height: 100%;
-  border-radius: 50px;
-  overflow: hidden;
-}
-
-.hobby-line {
-  width: 300%;
-  height: 100%;
-  display: flex;
-  transition: all 0.7s ease-in-out;
-  margin-left: 0;
+  color: red;
 }
 
 .hobby-item {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-.hobby-item p {
-  position: absolute;
-  z-index: 50;
-  top: 60%;
-  width: 75%;
-  line-height: 25px;
-  letter-spacing: 1.5px;
-  left: 5%;
-  font-size: 20px;
-}
-.hobby-item img {
-  filter: brightness(50%) blur(3px);
-  z-index: -50;
-  width: 100%;
-  height: 100%;
-}
-
-.hobby-group {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 50%;
-  gap: 7px;
+  justify-content: end;
+  padding: 20px;
+  text-shadow: 0 0 5px black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.hobby-group .hobby-circles {
-  display: flex;
-  gap: 20px;
+.hobby-item.skateboard {
+  background-image: url("../img/skeit.jpeg");
 }
-
-.circle {
-  cursor: pointer;
-  transition: all 0.7s ease-in-out;
-  width: 15px;
-  height: 15px;
-  border-radius: 15px;
-  border: 1px solid #B97EFF;
-  background-color: inherit;
+.hobby-item.manga {
+  background-image: url("../img/manga.jpg");
+}
+.hobby-item.sport {
+  background-image: url("../img/sport.jpeg");
 }
 
 .section-portfolio {
@@ -614,8 +562,7 @@ button:active {
   background-blend-mode: color;
   background-color: rgba(0, 0, 0, 0.8);
   cursor: pointer;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   text-align: center;
   justify-content: center;
   align-content: center;
@@ -627,8 +574,7 @@ button:active {
   text-shadow: 2px 2px 5px #B97EFF;
 }
 .portfolio-item:hover {
-  -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
   background-size: 120% 120%;
   background-color: rgba(0, 0, 0, 0.05);
 }
@@ -726,74 +672,3 @@ button:active {
   font-size: 20px;
   margin-top: 20px;
 }
-
-body {
-  position: relative;
-}
-
-.card {
-  color: white;
-  width: 400px;
-  height: 300px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  position: absolute;
-  cursor: grab;
-  display: flex;
-  flex-direction: column;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-.card:active {
-  cursor: grabbing;
-}
-
-.untransition {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #000000;
-  width: 100%;
-  height: 100vh;
-  z-index: 10000;
-  transition: all 1.5s ease-in-out;
-}
-
-nav {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding-top: 2%;
-}
-
-.card-1 {
-  top: 100px;
-  left: 10%;
-  background-color: rgba(0, 0, 0, 0.2196078431);
-}
-
-.card-2 {
-  top: 250px;
-  left: 60%;
-  background-color: rgba(0, 0, 0, 0.2196078431);
-}
-
-.card-3 {
-  top: 450px;
-  left: 15%;
-  background-color: rgba(0, 0, 0, 0.2196078431);
-}
-
-.card-4 {
-  top: 750px;
-  left: 55%;
-  background-color: rgba(0, 0, 0, 0.2196078431);
-}
-
-.card-5 {
-  top: 950px;
-  left: 10%;
-  background-color: rgba(0, 0, 0, 0.2196078431);
-}/*# sourceMappingURL=main.css.map */
