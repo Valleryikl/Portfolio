@@ -1,5 +1,5 @@
-<?php 
-    require_once "./modul/portfolioItem.php";
+<?php
+require_once "./modul/portfolioItem.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -7,7 +7,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/main.min.css">
+    <link rel="stylesheet" href="./src/assets/css/main.css">
+     <!-- <link rel="stylesheet" href="./test.css"> -->
     <script src="./src/dist/js/script.js" defer></script>
     <script src="./src/dist/js/slaider.js" defer></script>
     <script src="./src/dist/js/hobby.js" defer></script>
@@ -61,7 +62,7 @@
                         <button class="tab" data-tab="tab3">HARD SKILLS</button>
                         <button class="tab" data-tab="tab4">SOFT SKILLS</button>
                         <button class="tab" data-tab="tab5">NEXT SKILLS</button>
-                        
+
                     </div>
 
                     <div class="tab-content active" id="tab1">
@@ -174,96 +175,112 @@
                         </ul>
                     </div>
                 </div>
-                <h3 class="violet">Hobby</h3>
-                <div class="hobby display-flex">
-                    <div class="slaider-btn" id="prev"></div>
+                <div id="hobby" class="hobby">
+                    <h2>Hobby</h2>
                     <div class="hobby-group">
-                        <div class="hobby-slaider">
-                            <div class="hobby-line">
-                                <div class="hobby-item">
-                                    <p>I like working out in my free time when I'm not programming — it helps me relax,
-                                        and the atmosphere in the gym gives me extra motivation.</p>
-                                    <img src="src/assets/img/sport.jpeg" alt="Photos of black dumbbells">
-                                </div>
-                                <div class="hobby-item">
-                                    <p>I've loved anime, manga, and everything related to that culture since childhood
-                                        — especially the deep meaning behind such beautiful works.</p>
-                                    <img src="src/assets/img/manga.jpg" alt="Photos of manga">
-                                </div>
-                                <div class="hobby-item">
-                                    <p>When the weather is warm, I love skateboarding — it’s really refreshing.</p>
-                                    <img src="src/assets/img/skeit.jpeg" alt="Photos of skeit">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hobby-circles">
-                            <canvas class="circle"></canvas>
-                            <canvas class="circle"></canvas>
-                            <canvas class="circle"></canvas>
-                        </div>
+                        <a
+                            class="hobby-item skateboard"
+                            href="https://www.instagram.com/vallery.yr"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <h3>Skateboard</h3>
+                            <p>When the weather is warm, I love skateboarding — it’s really refreshing.</p>
+                        </a>
+                        <a
+                            class="hobby-item manga"
+                            href="https://www.instagram.com/vallery.yr"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <h3>Manga</h3>
+                            <p>I've loved anime, manga, and everything related to that culture since childhood
+                                — especially the deep meaning behind such beautiful works.</p>
+                        </a>
                     </div>
-                    <div class="slaider-btn" id="next"></div>
+                    <div class="hobby-group">
+                        <a
+                            class="hobby-item sport"
+                            href="https://www.instagram.com/vallery.yr"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <h3>Sport</h3>
+                            <p>I like working out in my free time when I'm not programming — it helps me relax,
+                                and the atmosphere in the gym gives me extra motivation.</p>
+                        </a>
+                    </div>
                 </div>
+
             </section>
             <section class="section-portfolio" id="Portfolio">
                 <h3>My projects</h3>
                 <div class="portfolio">
-                        <?php
-                            portfolioItem("quizz", 
-                                        "Quizz", 
-                                        "./src/assets/img/quizzT.png", 
-                                        "https://valleryikl.github.io/Quizz/", 
-                                        "HTML/CSS, JavaScript, Json", 
-                                        "Quizz is a playful and dynamic web application that lets users test their tech knowledge.
+                    <?php
+                    portfolioItem(
+                        "quizz",
+                        "Quizz",
+                        "./src/assets/img/quizzT.png",
+                        "https://valleryikl.github.io/Quizz/",
+                        "HTML/CSS, JavaScript, Json",
+                        "Quizz is a playful and dynamic web application that lets users test their tech knowledge.
                                         Built in just a few hours using HTML, CSS, JavaScript and a JSON dataset, it offers a responsive and engaging experience.
-                                        This project was my first time working with JSON under a tight deadline. It was a challenging task, but an incredibly valuable learning experience.");
+                                        This project was my first time working with JSON under a tight deadline. It was a challenging task, but an incredibly valuable learning experience."
+                    );
 
-                            portfolioItem("neon", 
-                                        "Neon Waves",
-                                        "./src/assets/img/neonT.png",
-                                        "https://github.com/Valleryikl/neon_waves",
-                                        "HTML/CSS, SCSS/SAAS, JavaScript", 
-                                        "Neon Waves is a multi-page website built to simulate a real festival landing page.
+                    portfolioItem(
+                        "neon",
+                        "Neon Waves",
+                        "./src/assets/img/neonT.png",
+                        "https://github.com/Valleryikl/neon_waves",
+                        "HTML/CSS, SCSS/SAAS, JavaScript",
+                        "Neon Waves is a multi-page website built to simulate a real festival landing page.
                                         It was created as part of my application project to join Web@cadémie. This site includes animated UI elements,
-                                        a responsive layout, and a strong visual identity using HTML, CSS, SCSS and JavaScript.");
+                                        a responsive layout, and a strong visual identity using HTML, CSS, SCSS and JavaScript."
+                    );
 
-                            portfolioItem("animeec",
-                                        "ANImeec.",
-                                        "./src/assets/img/animeecT.png",
-                                        "https://github.com/Valleryikl/neon_waves",
-                                        "HTML/CSS, PHP, SQL",
-                                        "ANImeec. is a dating site for anime characters. Here, you can register and find your ideal hero based on
+                    portfolioItem(
+                        "animeec",
+                        "ANImeec.",
+                        "./src/assets/img/animeecT.png",
+                        "https://github.com/Valleryikl/neon_waves",
+                        "HTML/CSS, PHP, SQL",
+                        "ANImeec. is a dating site for anime characters. Here, you can register and find your ideal hero based on
                                         your interests and preferences. The entire backend is built with PHP, and SQL is used for the database.
-                                        In this project, I built my own database and learned how to use it more effectively and accurately.");
+                                        In this project, I built my own database and learned how to use it more effectively and accurately."
+                    );
 
-                            portfolioItem("ac",
-                                        "AC_ouctoupus",
-                                        "./src/assets/img/acT.png",
-                                        "https://github.com/Valleryikl",
-                                        "HTML/CSS, Scss/Sass, JavaScript, PHP, SQL",
-                                        "The goal of this project is to create a social network for the students in your class,
+                    portfolioItem(
+                        "ac",
+                        "AC_ouctoupus",
+                        "./src/assets/img/acT.png",
+                        "https://github.com/Valleryikl",
+                        "HTML/CSS, Scss/Sass, JavaScript, PHP, SQL",
+                        "The goal of this project is to create a social network for the students in your class,
                                         with the same features as Twitter. It should resemble the “Twitter” website as closely as possible in terms of functionality.
                                         This was my first large-scale team project. It was challenging to adapt and collaborate with others at first, but it helped me 
-                                        develop a deeper understanding of JavaScript modules and the MVC architecture in PHP.");
+                                        develop a deeper understanding of JavaScript modules and the MVC architecture in PHP."
+                    );
 
-                            portfolioItem("cinema",
-                                        "WEBmovie",
-                                        "./src/assets/img/cinemaT.png",
-                                        "https://github.com/Valleryikl",
-                                        "HTML/CSS, JavaScript, PHP, SQL",
-                                        "This is a prototype of a movie website where you can find films and their
+                    portfolioItem(
+                        "cinema",
+                        "WEBmovie",
+                        "./src/assets/img/cinemaT.png",
+                        "https://github.com/Valleryikl",
+                        "HTML/CSS, JavaScript, PHP, SQL",
+                        "This is a prototype of a movie website where you can find films and their
                                         screening dates. You can also log in as an admin to view other users of the site.
-                                        This was my first time using a database and SQL in a project, and I successfully managed to handle it.");
+                                        This was my first time using a database and SQL in a project, and I successfully managed to handle it."
+                    );
 
-                            portfolioItem("todo",
-                                        "MyUtils",
-                                        "./src/assets/img/todoT.png",
-                                        "https://github.com/Valleryikl/MyUtils",
-                                        "HTML/CSS, JavaScript, PHP, SQL",
-                                        "My_Todo is a small web application developed in 3 hours. It allows users to create, 
+                    portfolioItem(
+                        "todo",
+                        "MyUtils",
+                        "./src/assets/img/todoT.png",
+                        "https://github.com/Valleryikl/MyUtils",
+                        "HTML/CSS, JavaScript, PHP, SQL",
+                        "My_Todo is a small web application developed in 3 hours. It allows users to create, 
                                         delete, save, and reload tasks using a SQL database.
-                                        I had problems with this project because it didn’t load the saved data, but I managed to solve it.")
-                        ?>
+                                        I had problems with this project because it didn’t load the saved data, but I managed to solve it."
+                    )
+                    ?>
                 </div>
             </section>
             <section class="section-contact" id="Contact">

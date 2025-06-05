@@ -105,78 +105,27 @@
     height: 500px;
 }
 
-.hobby {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1%;
-}
-
-.slaider-btn {
-    transition: all .3s ease-in-out;
-    width: 7%;
-    height: 60%;
-    background-color: #b87eff6a;
-    filter: blur(100px);
-    cursor: pointer;
-    &:hover {
-        width: 10%;
-        height: 60%;
-    }
-}
-.hobby-slaider {
-    width: 100%;
-    height: 100%;
-    border-radius: 50px;
-    overflow: hidden;
-}
-.hobby-line {
-    width: 300%;
-    height: 100%;
-    display: flex;
-    transition: all .7s ease-in-out;
-    margin-left: 0;
-}
-
 .hobby-item {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    p {
-        position: absolute;
-        z-index: 50;
-        top: 60%;
-        width: 75%;
-        line-height: 25px;
-        letter-spacing: 1.5px;
-        left: 5%;
-        font-size: 20px;
-    }
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	padding: 20px;
+	text-shadow: 0 0 5px black;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 
-    img {
-        filter: brightness(50%) blur(3px);
-        z-index: -50;
-        width: 100%;
-        height: 100%;
-    }
-}
-.hobby-group {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    gap: 7px;
-    .hobby-circles {
-        display: flex;
-        gap: 20px;
-    }
-}
-.circle {
-    cursor: pointer;
-    transition: all .7s ease-in-out;
-    width: 15px;
-    height: 15px;
-    border-radius: 15px;
-    border: 1px solid #B97EFF;
-    background-color: inherit;
+	&.skateboard {
+		background-image: url('../img/skeit.jpeg');
+	}
+	&.manga {
+		background-image: url('../img/manga.jpg');
+	}
+	&.sport {
+		background-image: url('../img/sport.jpeg');
+	}
 }
