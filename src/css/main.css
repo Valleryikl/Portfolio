@@ -284,7 +284,8 @@ button:active {
   color: #fff;
   background-color: rgba(27, 21, 34, 0.7);
   border-radius: 70px 0 70px 0;
-  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+          backdrop-filter: blur(1.5px);
   z-index: 69;
   border: 1px solid #fff;
   justify-content: center;
@@ -504,31 +505,77 @@ button:active {
 }
 
 .hobby {
-  color: red;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hobby h2 {
+  margin: 20px 0 60px;
+}
+
+.hobby-group {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  gap: 70px;
+}
+.hobby-group.sport {
+  margin-top: -70px;
 }
 
 .hobby-item {
-  width: 200px;
-  height: 200px;
-  border-radius: 20px;
-  color: white;
   display: flex;
   flex-direction: column;
-  justify-content: end;
-  padding: 20px;
-  text-shadow: 0 0 5px black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 250px;
+  color: white;
+  padding: 0;
+  transition: all 0.35s ease-in-out;
+  border: 5px solid white;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+.hobby-item p {
+  position: relative;
+  top: -10px;
+  opacity: 0;
+  transition: all 0.35s ease-in-out;
+}
+.hobby-item h3 {
+  position: relative;
+  transition: all 0.35s ease-in-out;
+  font-size: 50px;
+  top: 20px;
+}
+.hobby-item:hover {
+  padding: 15px;
+}
+.hobby-item:hover p {
+  top: 0;
+  opacity: 1;
+}
+.hobby-item:hover h3 {
+  top: 0px;
+  font-size: 45px;
+}
 .hobby-item.skateboard {
-  background-image: url("../img/skeit.jpeg");
+  background-image: url("../assets/img/skeit.jpeg");
 }
 .hobby-item.manga {
-  background-image: url("../img/manga.jpg");
+  background-image: url("../assets/img/manga.jpg");
 }
 .hobby-item.sport {
-  background-image: url("../img/sport.jpeg");
+  background-image: url("../assets/img/sport.jpeg");
+}
+
+.hobby-group {
+  display: flex;
 }
 
 .section-portfolio {
@@ -562,7 +609,8 @@ button:active {
   background-blend-mode: color;
   background-color: rgba(0, 0, 0, 0.8);
   cursor: pointer;
-  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
   text-align: center;
   justify-content: center;
   align-content: center;
@@ -574,7 +622,8 @@ button:active {
   text-shadow: 2px 2px 5px #B97EFF;
 }
 .portfolio-item:hover {
-  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
   background-size: 120% 120%;
   background-color: rgba(0, 0, 0, 0.05);
 }
@@ -671,4 +720,4 @@ button:active {
   gap: 20px;
   font-size: 20px;
   margin-top: 20px;
-}
+}/*# sourceMappingURL=main.css.map */

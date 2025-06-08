@@ -7,8 +7,7 @@ require_once "./modul/portfolioItem.php";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/assets/css/main.css">
-     <!-- <link rel="stylesheet" href="./test.css"> -->
+    <link rel="stylesheet" href="./src/css/main.css">
     <script src="./src/dist/js/script.js" defer></script>
     <script src="./src/dist/js/slaider.js" defer></script>
     <script src="./src/dist/js/hobby.js" defer></script>
@@ -177,6 +176,7 @@ require_once "./modul/portfolioItem.php";
                 </div>
                 <div id="hobby" class="hobby">
                     <h2>Hobby</h2>
+                    <!-- Не забудь поставить тени для шрифта и поменять снимки как у тебя было в том проекте -->
                     <div class="hobby-group">
                         <a
                             class="hobby-item skateboard"
@@ -196,7 +196,7 @@ require_once "./modul/portfolioItem.php";
                                 — especially the deep meaning behind such beautiful works.</p>
                         </a>
                     </div>
-                    <div class="hobby-group">
+                    <div class="hobby-group sport">
                         <a
                             class="hobby-item sport"
                             href="https://www.instagram.com/vallery.yr"
