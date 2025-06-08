@@ -105,27 +105,86 @@
     height: 500px;
 }
 
-.hobby-item {
-	width: 200px;
-	height: 200px;
-	border-radius: 20px;
-	color: white;
-	display: flex;
-	flex-direction: column;
-	justify-content: end;
-	padding: 20px;
-	text-shadow: 0 0 5px black;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+.hobby {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    h2 {
+        margin: 20px 0 60px;
+    }
+
+}
+
+.hobby-group {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    gap: 70px;
+    
+    &.sport {
+        margin-top: -70px;
+
+    }
+}
+
+.hobby-item {
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+	width: 500px;
+	height: 250px;
+	color: white;
+	padding: 0;
+    transition: all .35s ease-in-out;
+    border: 5px solid white;
+    p {
+        position: relative;
+        top: -10px;
+        opacity: 0;
+        transition: all .35s ease-in-out;
+    }
+
+    h3 {
+        position: relative;
+        transition: all .35s ease-in-out;
+        font-size: 50px;
+        top: 20px;
+    }
+
+    &:hover {
+        // transform: scale(1.1);
+        padding: 15px;
+    }
+
+    &:hover p {
+        top: 0;
+        opacity: 1;
+    }
+
+    &:hover h3 {
+        top: 0px;
+        font-size: 45px;
+    }
+    
 	&.skateboard {
-		background-image: url('../img/skeit.jpeg');
+        background-image: url('../assets/img/skeit.jpeg');
 	}
 	&.manga {
-		background-image: url('../img/manga.jpg');
+        background-image: url('../assets/img/manga.jpg');
 	}
 	&.sport {
-		background-image: url('../img/sport.jpeg');
+        background-image: url('../assets/img/sport.jpeg');
 	}
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hobby-group {
+    display: flex;
 }
