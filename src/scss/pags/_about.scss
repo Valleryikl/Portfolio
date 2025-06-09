@@ -111,9 +111,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
 
     h2 {
         margin: 20px 0 60px;
+        text-shadow: 2px 2px 5px #af0fccf1;
     }
 
 }
@@ -148,12 +150,13 @@
         opacity: 0;
         transition: all .35s ease-in-out;
     }
-
+    
     h3 {
         position: relative;
         transition: all .35s ease-in-out;
         font-size: 50px;
         top: 20px;
+        text-shadow: 2px 2px 5px #ffffff84;
     }
 
     &:hover {
@@ -172,13 +175,13 @@
     }
     
 	&.skateboard {
-        background-image: url('../assets/img/skeit.jpeg');
+        background-image: url('../assets/img/skeit.png');
 	}
 	&.manga {
-        background-image: url('../assets/img/manga.jpg');
+        background-image: url('../assets/img/manga.png');
 	}
 	&.sport {
-        background-image: url('../assets/img/sport.jpeg');
+        background-image: url('../assets/img/sport.png');
 	}
 
     background-size: cover;

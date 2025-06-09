@@ -510,9 +510,11 @@ button:active {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 40px;
 }
 .hobby h2 {
   margin: 20px 0 60px;
+  text-shadow: 2px 2px 5px rgba(175, 15, 204, 0.9450980392);
 }
 
 .hobby-group {
@@ -552,6 +554,7 @@ button:active {
   transition: all 0.35s ease-in-out;
   font-size: 50px;
   top: 20px;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5176470588);
 }
 .hobby-item:hover {
   padding: 15px;
@@ -565,13 +568,13 @@ button:active {
   font-size: 45px;
 }
 .hobby-item.skateboard {
-  background-image: url("../assets/img/skeit.jpeg");
+  background-image: url("../assets/img/skeit.png");
 }
 .hobby-item.manga {
-  background-image: url("../assets/img/manga.jpg");
+  background-image: url("../assets/img/manga.png");
 }
 .hobby-item.sport {
-  background-image: url("../assets/img/sport.jpeg");
+  background-image: url("../assets/img/sport.png");
 }
 
 .hobby-group {
