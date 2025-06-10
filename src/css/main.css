@@ -581,6 +581,25 @@ button:active {
   display: flex;
 }
 
+@media (max-width: 1440px) {
+  .hobby-group {
+    flex-wrap: wrap;
+  }
+  .hobby-group.sport {
+    margin-top: 70px;
+  }
+  .hobby-item {
+    width: 80%;
+    height: 350px;
+  }
+  .hobby-item p {
+    font-size: 24px;
+  }
+  .hobby-item:hover h3 {
+    top: -10px;
+    font-size: 45px;
+  }
+}
 .section-portfolio {
   width: 100%;
   display: none;

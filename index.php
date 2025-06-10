@@ -10,7 +10,6 @@ require_once "./modul/portfolioItem.php";
     <link rel="stylesheet" href="./src/css/main.css">
     <script src="./src/dist/js/script.js" defer></script>
     <script src="./src/dist/js/slaider.js" defer></script>
-    <script src="./src/dist/js/hobby.js" defer></script>
     <script src="./src/dist/js/portfolio.js" defer></script>
     <script src="./src/dist/js/menu.js" defer></script>
     <script src="./src/dist/js/transition.js" defer></script>
@@ -68,13 +67,13 @@ require_once "./modul/portfolioItem.php";
                         <h4 class="title-animation">In progres</h4>
                         <ul>
                             <li> <a class="li-link" href="https://www.webacademie.org/">Web@cademie <b>2024-2026</b></a></li>
-                            <li> <a class="li-link" href="https://sql-academy.org/en">Sql-academy <b>2025</b></a></li>
                             <li> <a class="li-link" href="https://itgid.info/ru">JavaScript 2 <b>2025</b></a></li>
                         </ul>
                         <h4 class="title-animation">Finish</h4>
                         <ul>
-                            <li> <a class="li-link" href="https://itgid.info/ru">JavaScript <b>2024 (1 month)</b></a></li>
-                            <li> <a class="li-link" href="https://itproger.com/">Profession Front-end developper <b>2023 (3 month)</b></a></li>
+                            <li> <a class="li-link" href="./sql.pdf" download>Sql-academy <b>2025</b></a></li>
+                            <li> <a class="li-link" href="./JavaScript24.png" download>JavaScript <b>2024 (1 month)</b></a></li>
+                            <li> <a class="li-link" href="./diplom.pdf" download>Profession Front-end developper <b>2023 (3 month)</b></a></li>
                         </ul>
                     </div>
                     <div class="tab-content" id="tab2">

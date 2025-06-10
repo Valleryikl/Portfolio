@@ -123,6 +123,7 @@
 .hobby-group {
     display: flex;
     justify-content: center;
+    // flex-wrap: wrap;
     width: 70%;
     gap: 70px;
     
@@ -190,4 +191,27 @@
 }
 .hobby-group {
     display: flex;
+}
+
+@media (max-width: 1440px) {
+    .hobby-group {
+        flex-wrap: wrap;
+
+        &.sport {
+        margin-top: 70px;
+    }
+    }
+    .hobby-item {
+        width: 80%;
+        height: 350px;
+
+        p{
+            font-size: 24px;
+        }
+
+        &:hover h3 {
+        top: -10px;
+        font-size: 45px;
+    }
+    }
 }
