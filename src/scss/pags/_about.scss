@@ -20,11 +20,11 @@
     position: relative;
     gap: 10px;
     &::after {
-        content: '';
+        content: "";
         position: absolute;
         background-attachment: fixed;
         background-blend-mode: color;
-        background-color: rgba(0, 0, 0, 0.60);
+        background-color: rgba(0, 0, 0, 0.6);
         top: 0;
         left: 0;
         height: 100%;
@@ -46,7 +46,7 @@
     border: 1px solid white;
     color: white;
     border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .tabs {
@@ -61,20 +61,20 @@
     padding: 10px;
     cursor: pointer;
     color: white;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     position: relative;
-    
+
     &.active {
-        color: #2962FF;
-        
+        color: #2962ff;
+
         &::after {
-            content: '';
+            content: "";
             position: absolute;
             bottom: -2px;
             left: 0;
             width: 100%;
             height: 2px;
-            background: #2962FF;
+            background: #2962ff;
         }
     }
 }
@@ -86,10 +86,10 @@
 
     h4 {
         margin: 10px 10px 3px 10px;
-        color: #B97EFF;
+        color: #b97eff;
     }
-  }
-  
+}
+
 .tab-content.active {
     display: block;
 }
@@ -117,7 +117,6 @@
         margin: 20px 0 60px;
         text-shadow: 2px 2px 5px #af0fccf1;
     }
-
 }
 
 .hobby-group {
@@ -126,35 +125,34 @@
     // flex-wrap: wrap;
     width: 70%;
     gap: 70px;
-    
+
     &.sport {
         margin-top: -70px;
-
     }
 }
 
 .hobby-item {
-	display: flex;
+    display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
-	width: 500px;
-	height: 250px;
-	color: white;
-	padding: 0;
-    transition: all .35s ease-in-out;
+    width: 500px;
+    height: 250px;
+    color: white;
+    padding: 0;
+    transition: all 0.35s ease-in-out;
     border: 5px solid white;
     p {
         position: relative;
         top: -10px;
         opacity: 0;
-        transition: all .35s ease-in-out;
+        transition: all 0.35s ease-in-out;
     }
-    
+
     h3 {
         position: relative;
-        transition: all .35s ease-in-out;
+        transition: all 0.35s ease-in-out;
         font-size: 50px;
         top: 20px;
         text-shadow: 2px 2px 5px #ffffff84;
@@ -174,16 +172,16 @@
         top: 0px;
         font-size: 45px;
     }
-    
-	&.skateboard {
-        background-image: url('../assets/img/skeit.png');
-	}
-	&.manga {
-        background-image: url('../assets/img/manga.png');
-	}
-	&.sport {
-        background-image: url('../assets/img/sport.png');
-	}
+
+    &.skateboard {
+        background-image: url("../assets/img/skeit.png");
+    }
+    &.manga {
+        background-image: url("../assets/img/manga.png");
+    }
+    &.sport {
+        background-image: url("../assets/img/sport.png");
+    }
 
     background-size: cover;
     background-position: center;
@@ -194,24 +192,41 @@
 }
 
 @media (max-width: 1440px) {
+    .tabs-container {
+        width: 88%;
+    }
+    .tabs {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+    .about {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1060px) {
     .hobby-group {
         flex-wrap: wrap;
 
         &.sport {
-        margin-top: 70px;
-    }
+            margin-top: 70px;
+        }
     }
     .hobby-item {
-        width: 80%;
+        width: 100%;
         height: 350px;
-
-        p{
+        
+        h3 {
+            top: 0;
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+        p {
             font-size: 24px;
+            top: 0;
+            opacity: 1;
         }
 
-        &:hover h3 {
-        top: -10px;
-        font-size: 45px;
-    }
     }
 }

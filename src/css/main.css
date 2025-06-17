@@ -465,7 +465,7 @@ button:active {
   position: relative;
 }
 .tab.active {
-  color: #2962FF;
+  color: #2962ff;
 }
 .tab.active::after {
   content: "";
@@ -474,7 +474,7 @@ button:active {
   left: 0;
   width: 100%;
   height: 2px;
-  background: #2962FF;
+  background: #2962ff;
 }
 
 .tab-content {
@@ -484,7 +484,7 @@ button:active {
 }
 .tab-content h4 {
   margin: 10px 10px 3px 10px;
-  color: #B97EFF;
+  color: #b97eff;
 }
 
 .tab-content.active {
@@ -582,6 +582,19 @@ button:active {
 }
 
 @media (max-width: 1440px) {
+  .tabs-container {
+    width: 88%;
+  }
+  .tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+  .about {
+    width: 90%;
+  }
+}
+@media (max-width: 1060px) {
   .hobby-group {
     flex-wrap: wrap;
   }
@@ -589,15 +602,18 @@ button:active {
     margin-top: 70px;
   }
   .hobby-item {
-    width: 80%;
+    width: 100%;
     height: 350px;
+  }
+  .hobby-item h3 {
+    top: 0;
+    font-size: 45px;
+    margin-bottom: 10px;
   }
   .hobby-item p {
     font-size: 24px;
-  }
-  .hobby-item:hover h3 {
-    top: -10px;
-    font-size: 45px;
+    top: 0;
+    opacity: 1;
   }
 }
 .section-portfolio {
