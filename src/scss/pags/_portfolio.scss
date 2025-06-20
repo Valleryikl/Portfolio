@@ -54,20 +54,20 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #000000ac;
-    z-index: 20;
+    z-index: 20000;
     align-items: center;
     justify-content: center;
 }
 .portfolio-item__decribe {
     width: 80%;
     height: 85%;
-    background-color: #dba1f8;
+    background-color: #000000d5;
     color: rgb(255, 255, 255);
     z-index: 50;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     img {
         width: 60%;
         height: 50%;
@@ -97,10 +97,79 @@
     background-image: url("../assets/img/cinema.png");
 }
 
+.quizz2 {
+    .portfolio-item__decribe {
+        background-image: url("../assets/img/quizz.png");
+        background-blend-mode: color;
+        background-color: rgba(0, 0, 0, 0.803);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}
+.todo2 {
+    .portfolio-item__decribe {
+        background-image: url("../assets/img/todo.png");
+        background-blend-mode: color;
+        background-color: rgba(0, 0, 0, 0.803);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.neon2 {
+    .portfolio-item__decribe {
+        background-image: url("../assets/img/neon.png");
+        background-blend-mode: color;
+        background-color: rgba(0, 0, 0, 0.803);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.ac2 {
+    .portfolio-item__decribe {
+        background-image: url("../assets/img/ac.png");
+        background-blend-mode: color;
+        background-color: rgba(0, 0, 0, 0.803);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.animeec2 {
+    .portfolio-item__decribe {
+        background-image: url("../assets/img/animeec.png");
+        background-blend-mode: color;
+        background-color: rgba(0, 0, 0, 0.803);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.cinema2 {
+    .portfolio-item__decribe {
+        background-image: url("../assets/img/cinema.png");
+        background-blend-mode: color;
+        background-color: rgba(0, 0, 0, 0.803);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
 @media (max-width: 1025px) {
     .portfolio-group {
         width: 40%;
     }
+    .portfolio-info {
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.34);
+    }
+    .portfolio-item__decribe {
+        width: 95%;
+        img {
+            width: 550px;
+            height: 290px;
+        }
+    }
+    
 }
 @media (max-width: 800px) {
     .portfolio-group {
@@ -112,5 +181,27 @@
     }
     .section-portfolio {
         height: 100%;
+    }
+    .portfolio-item__decribe {
+        width: 95%;
+        img {
+            width: 350px;
+            height: 200px;
+        }
+        .portfolio-text {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .portfolio-item__decribe {
+        img {
+            width: 250px;
+            height: 150px;
+        }
+        .portfolio-text {
+            width: 90%;
+        }
     }
 }
