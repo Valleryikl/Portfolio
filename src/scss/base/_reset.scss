@@ -30,7 +30,7 @@ h4 {
 p {
     font-size: 15px;
     line-height: 20px;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
 }
 #lightCanvas,
 #dotsCanvas {
@@ -51,13 +51,13 @@ button {
     padding: 7px 15px;
     border-radius: 15px;
     color: rgba(255, 255, 255, 0.838);
-    background-color: #B97EFF;
+    background-color: #b97eff;
     border: none;
-    transition: all .25s ease-in-out;
+    transition: all 0.25s ease-in-out;
     cursor: pointer;
     &:hover {
         background-color: #efe1ff;
-        color: #B97EFF;
+        color: #b97eff;
         transform: translateY(-1px);
     }
     &:active {
@@ -75,4 +75,7 @@ button {
     height: 100%;
     z-index: 1000;
     transition: all 1.5s ease-in-out;
+}
+.no_scroll {
+    overflow: hidden;
 }

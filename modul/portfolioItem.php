@@ -5,7 +5,7 @@ function portfolioItem($titleClass, $title, $img, $link, $stack, $content)
                         <div class="portfolio-item ' . $titleClass . '">
                             <h3>' . $title . '</h3>
                         </div>
-                        <div class="portfolio-info">
+                        <div class="portfolio-info ' . $titleClass . '2">
                             <div class="portfolio-item__decribe">
                                 <h3>' . $title . '</h3>
                                 <img src="' . $img . '" alt="Foto of the ' . $title . '">

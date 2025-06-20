@@ -13,6 +13,7 @@ require_once "./modul/portfolioItem.php";
     <script src="./src/dist/js/portfolio.js" defer></script>
     <script src="./src/dist/js/menu.js" defer></script>
     <script src="./src/dist/js/transition.js" defer></script>
+    <script src="./src/js/scrol.js" defer></script>
     <title>Portfolio</title>
 </head>
 
