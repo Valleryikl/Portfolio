@@ -226,7 +226,74 @@
             font-size: 24px;
             top: 0;
             opacity: 1;
+            line-height: 30px;
         }
 
     }
+    .about {
+        p {
+            width: 97%;
+        }
+    }
 }
+
+@media (max-width: 900px) {
+    .tab-container {
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+
+        .tab-group {
+            width: 99%;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .about {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+ @media (max-width: 600px) {
+    .about {
+        height: auto;
+        border: none;
+        &::after {
+            background-color: inherit;
+            background-image: none;
+        }
+        h4 {
+            color: #b97eff;
+        }
+    }
+ }
+
+ @media (max-width: 650px) {
+    .hobby-group {
+        width: 94%;
+    } 
+    .hobby-item {
+        border: 2px solid white;
+        height: 300px;
+
+        h3 {
+            top: 0;
+            font-size: 30px;
+        }
+        p {
+            font-size: 20px;
+            top: 0;
+            opacity: 1;
+            line-height: 25px;
+        }
+    }
+ }
+
+ @media (max-width: 500px) {
+    .tab-content {
+        width: 100%;
+        text-align: center;
+    }
+
+ }
