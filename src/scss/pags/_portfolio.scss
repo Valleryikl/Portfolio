@@ -4,14 +4,15 @@
     color: white;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
 }
 .portfolio {
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    gap: 2%;
+    gap: 30px;
 }
 .portfolio-group {
     width: 25%;
@@ -94,4 +95,22 @@
 }
 .cinema {
     background-image: url("../assets/img/cinema.png");
+}
+
+@media (max-width: 1025px) {
+    .portfolio-group {
+        width: 40%;
+    }
+}
+@media (max-width: 800px) {
+    .portfolio-group {
+        width: 80%;
+        height: 40vh;
+    }
+    .portfolio {
+        height: auto;
+    }
+    .section-portfolio {
+        height: 100%;
+    }
 }
