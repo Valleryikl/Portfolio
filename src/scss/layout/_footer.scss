@@ -1,0 +1,31 @@
+.link_group {
+    padding: 2% 15%;
+    position: relative;
+    bottom: 0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    a {
+        color: #B97EFF;
+        font-size: 20px;
+        button {
+            margin-top: 0;
+        }
+    }
+}
+
+@media (max-width:850px) {
+    .link_group {
+        padding: 2% 7%;
+    }
+}
+@media (max-width:450px) {
+    .link_group {
+        padding-top: 10%;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+}

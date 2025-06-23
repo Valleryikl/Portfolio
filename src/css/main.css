@@ -276,6 +276,37 @@ button:active {
     z-index: 100;
   }
 }
+.link_group {
+  padding: 2% 15%;
+  position: relative;
+  bottom: 0;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.link_group a {
+  color: #B97EFF;
+  font-size: 20px;
+}
+.link_group a button {
+  margin-top: 0;
+}
+
+@media (max-width: 850px) {
+  .link_group {
+    padding: 2% 7%;
+  }
+}
+@media (max-width: 450px) {
+  .link_group {
+    padding-top: 10%;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+}
 .section-home {
   width: 100%;
   display: flex;
@@ -892,7 +923,7 @@ button:active {
 }
 .section-contact {
   width: 100%;
-  margin-top: 20px;
+  padding-top: 20px;
   display: flex;
   color: white;
   display: none;
@@ -914,13 +945,6 @@ button:active {
 }
 .form-contact button {
   width: 200px;
-}
-
-.link_group {
-  display: flex;
-  gap: 20px;
-  font-size: 20px;
-  margin-top: 20px;
 }
 
 @media (max-width: 1025px) {
