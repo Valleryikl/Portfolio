@@ -921,4 +921,18 @@ button:active {
   gap: 20px;
   font-size: 20px;
   margin-top: 20px;
+}
+
+@media (max-width: 1025px) {
+  .form-contact {
+    width: 50%;
+  }
+}
+@media (max-width: 550px) {
+  .form-contact {
+    width: 70%;
+  }
+  .form-contact input {
+    padding: 3px;
+  }
 }/*# sourceMappingURL=main.css.map */
