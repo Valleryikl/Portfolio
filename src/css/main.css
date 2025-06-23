@@ -876,6 +876,10 @@ button:active {
   .portfolio-item__decribe .portfolio-text {
     width: 80%;
   }
+  .portfolio-item__decribe .link {
+    color: #B97EFF;
+    text-decoration: underline;
+  }
 }
 @media (max-width: 500px) {
   .portfolio-item__decribe img {

@@ -176,7 +176,6 @@ require_once "./modul/portfolioItem.php";
                 </div>
                 <div id="hobby" class="hobby">
                     <h2>Hobby</h2>
-                    <!-- Не забудь поставить тени для шрифта и поменять снимки как у тебя было в том проекте -->
                     <div class="hobby-group">
                         <a
                             class="hobby-item skateboard"
