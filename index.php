@@ -304,7 +304,7 @@ require_once "./modul/portfolioItem.php";
         <div class="link_group">
             <a class="link" href="https://github.com/Valleryikl" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a class="link" href="https://www.linkedin.com/in/vallery-girtie/" target="_blank" rel="noopener noreferrer">Linkedin</a>
-            <a href="./CV_Valeria_GIRTIE.pdf" download>
+            <a href="./CV_GIRTIE_Valeria.pdf" download>
                 <button>download CV</button>
             </a>
         </div>
