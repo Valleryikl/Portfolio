@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const block = document.getElementsByClassName('portfolio-group');
     const body = document.body;
 
@@ -8,9 +8,13 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log(element);
             if (body.classList.contains('no_scroll')) {
                 body.classList.remove('no_scroll');
-            }else {
+            } else {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
                 body.classList.add('no_scroll');
-            }       
+            }
         });
     }
 });
