@@ -28,3 +28,18 @@
     font-size: 20px;
     margin-top: 20px;
 }
+
+@media (max-width: 1025px) {
+    .form-contact  {
+        width: 50%;
+    }
+}
+
+@media (max-width: 550px) {
+    .form-contact  {
+        width: 70%;
+        input {
+            padding: 3px;
+        }
+    }
+}
