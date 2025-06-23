@@ -8,6 +8,8 @@ require_once "./modul/portfolioItem.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="icon" type="image/png" href="logo.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="logo.png" sizes="16x16" />
     <script src="./src/dist/js/script.js" defer></script>
     <script src="./src/dist/js/slaider.js" defer></script>
     <script src="./src/dist/js/portfolio.js" defer></script>

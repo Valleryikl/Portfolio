@@ -303,7 +303,7 @@ button:active {
   .link_group {
     padding-top: 10%;
     justify-content: center;
-    gap: 15px;
+    gap: 17px;
     flex-wrap: wrap;
   }
 }
