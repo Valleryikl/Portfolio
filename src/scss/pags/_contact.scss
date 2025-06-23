@@ -1,6 +1,6 @@
 .section-contact {
     width: 100%;
-    margin-top: 20px;
+    padding-top: 20px;
     display: flex;
     color: white;
     display: none;
@@ -21,12 +21,6 @@
     button {
         width: 200px;
     }
-}
-.link_group {
-    display: flex;
-    gap: 20px;
-    font-size: 20px;
-    margin-top: 20px;
 }
 
 @media (max-width: 1025px) {

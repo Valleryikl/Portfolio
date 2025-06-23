@@ -80,14 +80,14 @@ require_once "./modul/portfolioItem.php";
                     <div class="tab-content" id="tab2">
                         <h4 class="title-animation">Native language</h4>
                         <ul>
-                            <li class="li-regular">Roumain(Natif)</li>
+                            <li class="li-regular">Roumain(Native)</li>
                         </ul>
                         <h4 class="title-animation">Languages learned</h4>
                         <ul>
-                            <li class="li-regular">Russe(Natif)</li>
-                            <li class="li-regular">Français(Intermédiaire)</li>
-                            <li class="li-regular">Ukrainien(Intermédiaire)</li>
-                            <li class="li-regular">Anglais(Niveau technique)</li>
+                            <li class="li-regular">Russe(Native)</li>
+                            <li class="li-regular">Français(Intermediate)</li>
+                            <li class="li-regular">Ukrainien(Intermediate)</li>
+                            <li class="li-regular">Anglais(Technical level)</li>
                         </ul>
                     </div>
                     <div class="tab-content" id="tab3">
@@ -293,18 +293,20 @@ require_once "./modul/portfolioItem.php";
                     </label><br>
                     <button type="submit">Send</button>
                 </form>
-                <div class="link_group">
-                    <a class="link" href="https://github.com/Valleryikl" target="_blank" rel="noopener noreferrer">GitHub</a>
-                    <a class="link" href="https://www.linkedin.com/in/vallery-girtie/" target="_blank" rel="noopener noreferrer">Linkedin</a>
-                </div>
-                <a href="./CV_Valeria_GIRTIE.pdf" download>
-                    <button>instal CV</button>
-                </a>
 
             </section>
         </div>
 
     </div>
+    <footer>
+        <div class="link_group">
+            <a class="link" href="https://github.com/Valleryikl" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a class="link" href="https://www.linkedin.com/in/vallery-girtie/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+            <a href="./CV_Valeria_GIRTIE.pdf" download>
+                <button>download CV</button>
+            </a>
+        </div>
+    </footer>
     <canvas id="lightCanvas"> </canvas>
     <canvas id="dotsCanvas"> </canvas>
 </body>
