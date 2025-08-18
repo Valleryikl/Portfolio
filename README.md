@@ -32,4 +32,5 @@ The main goal of this prototype is to present my skills and projects developed d
 
 Valeria GIRTIE
 
-Visit my live portfolio 👉 [http://vallery.rf.gd/portfolio/index.php](http://vallery.rf.gd/portfolio/index.php)
+Visit my live portfolio 👉 [ValleryG](https://valleryg.onrender.com/)
+
