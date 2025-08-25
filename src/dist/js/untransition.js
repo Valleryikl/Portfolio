@@ -1,8 +1,8 @@
 "use strict";
 
 document.addEventListener('DOMContentLoaded', function () {
-  var transition = document.querySelector('.untransition');
+  var untransition = document.querySelector('.untransition');
   setTimeout(function () {
-    transition.style.top = "-100vh";
-  }, 100);
+    untransition.style.top = "-100%";
+  }, 1500);
 });
