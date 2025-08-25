@@ -97,13 +97,13 @@ require_once "./modul/portfolioItem.php";
                             <div class="tab-group">
                                 <h4 class="title-animation">Front-end Development</h4>
                                 <p><span class="text-actent">HTML, CSS,</span> and <span class="text-actent">JavaScript</span> are my core tools for building adaptive and interactive interfaces.
-                                    I also work with technologies like <span class="text-actent">Babel, React Native</span> and <span class="text-actent">SCSS</span> to write clean, modern, and maintainable code.
+                                    I also work with technologies like <span class="text-actent">Babel, React</span> and <span class="text-actent">SCSS</span> to write clean, modern, and maintainable code.
                                     I’m familiar with frameworks like <span class="text-actent">Bootstrap</span> and <span class="text-actent">Tailwind,</span> and I know how to use them, but they are not
                                     part of my main tech stack — I prefer writing custom styles for greater flexibility and control.</p>
                             </div>
                             <div class="tab-group">
                                 <h4 class="title-animation">Back-end Fundamentals</h4>
-                                <p>I have a solid understanding of <span class="text-actent">PHP(Laravel), SQL</span> and the basics of <span class="text-actent">REST APIs.</span>
+                                <p>I have a solid understanding of <span class="text-actent">PHP(Laravel, Symfony), Node.js, SQL</span> and the basics of <span class="text-actent">REST APIs.</span>
                                     I’m capable of building application logic, handling data, and connecting the back-end with the front-end.</p>
                             </div>
                             <div class="tab-group">
@@ -167,7 +167,6 @@ require_once "./modul/portfolioItem.php";
                     <div class="tab-content" id="tab5">
                         <h4 class="title-animation">In progres</h4>
                         <ul>
-                            <li>PHP(Symfony)</li>
                             <li>Java(Spring, Angular)</li>
                             <li>Python(Django)</li>
                             <li>Go</li>
